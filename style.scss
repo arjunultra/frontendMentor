@@ -6,25 +6,61 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
-  background: linear-gradient(45deg, hsl(257, 40%, 49%), hsl(300, 69%, 71%));
-  .container {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    header.top-container {
-      background-image: url("./images/bg-mobile.svg");
-      width: 100vw;
-      height: 50vh;
-      margin-bottom: 10em;
-    }
-    .bottom-container {
-      width: 100vw;
-      height: 50vh;
-      margin-top: 10em;
-    }
-    h1 {
-      font-family: "Poppins", sans-serif;
-      font-weight: 600;
-    }
+  color: whitesmoke;
+}
+.top-container {
+  width: 100%;
+  height: 60vh;
+  background-color: #6948ad;
+  background-image: url("./images/bg-mobile.svg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .hero-image {
+    display: block;
+    width: 25em;
+    margin: 4em auto;
+  }
+}
+.bottom-container {
+  background-color: #6948ad;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-start;
+  h1 {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0.7em;
+    font-weight: 600;
+  }
+  p {
+    margin: 0 auto;
+    max-width: 22em;
+  }
+  button {
+    margin-top: 1em;
+    border: none;
+    padding: 0.5em 5em;
+    border-radius: 3em;
+    color: #6948ad;
+    font-size: 1.1rem;
+  }
+}
+nav {
+  display: flex;
+  img {
+    width: 10em;
+    margin-top: 2em;
+    margin-left: 2em;
+  }
+}
+footer {
+  background-color: #6948ad;
+  .fa-facebook:before {
+    content: "\f09a";
+    background-color: transparent;
   }
 }
